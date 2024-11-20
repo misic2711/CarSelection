@@ -9,9 +9,7 @@
     </div>
 </template>
   
-<script setup>
-  import { defineProps } from 'vue';
-  
+<script setup>  
   const props = defineProps({
     label: {
       type: String,
