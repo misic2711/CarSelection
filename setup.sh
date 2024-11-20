@@ -1,16 +1,6 @@
 #!/bin/bash
 
-REPO_URL="https://github.com/misic2711/CarSelection.git"
-
-# Clone the repository
-echo "Cloning the repository..."
-git clone "$REPO_URL"
-
-# Extract the folder name from the repository URL 
-repo_name=$(basename "$REPO_URL" .git)
-
-# Change into the cloned directory
-cd "$repo_name" || exit
+echo "Setting up the project..."
 
 # Install dependencies
 echo "Installing dependencies..."
